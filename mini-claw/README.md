@@ -11,17 +11,18 @@ Agente autónomo simplificado inspirado no OpenClaw, desenhado para correr em am
 
 ## Instalação (Termux no Android)
 
-Para quem quer usar o Mini-Claw no telemóvel, siga estes passos simples no [Termux](https://termux.dev/):
+Para quem quer usar o Mini-Claw no telemóvel com a melhor performance e segurança, siga estes passos no [Termux](https://termux.dev/):
 
-1. **Atualizar o sistema**:
+1. **Atualizar o sistema e pacotes**:
    ```bash
    pkg update && pkg upgrade
    ```
 
-2. **Instalar Node.js e Git**:
+2. **Instalar Node.js LTS (Versão 22 recomendada) e Git**:
    ```bash
    pkg install nodejs git
    ```
+   *Nota: O Mini-Claw foi testado com Node.js v22.12.0 ou superior.*
 
 3. **Clonar o projeto**:
    ```bash
