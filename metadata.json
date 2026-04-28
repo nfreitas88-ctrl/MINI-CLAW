@@ -1,6 +1,9 @@
 {
-  "name": "mini-claw",
-  "description": "Simplified autonomous agent inspired by OpenClaw, capable of running in Termux with Telegram Bot integration.",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
+  "name": "Mini-Claw Dashboard",
+  "description": "A dashboard for managing your Mini-Claw agent.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
 }
