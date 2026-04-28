@@ -18,11 +18,11 @@ Para quem quer usar o Mini-Claw no telemóvel com a melhor performance e seguran
    pkg update && pkg upgrade
    ```
 
-2. **Instalar Node.js LTS (Versão 22 recomendada) e Git**:
+2. **Instalar Node.js LTS (Versão 24 recomendada) e Git**:
    ```bash
    pkg install nodejs git
    ```
-   *Nota: O Mini-Claw foi testado com Node.js v22.12.0 ou superior.*
+   *Nota: O Mini-Claw foi testado com Node.js v24.x para garantir compatibilidade e segurança.*
 
 3. **Clonar o projeto**:
    ```bash
@@ -30,10 +30,12 @@ Para quem quer usar o Mini-Claw no telemóvel com a melhor performance e seguran
    cd mini-claw
    ```
 
-4. **Instalar as dependências**:
+4. **Instalar as dependências e corrigir vulnerabilidades**:
    ```bash
    npm install
+   npm audit fix --force
    ```
+   *Isto garantirá que todos os módulos estão atualizados e sem falhas de segurança conhecidas.*
 
 5. **Configuração Guiada**:
    ```bash
