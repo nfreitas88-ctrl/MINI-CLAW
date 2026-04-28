@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 const configPath = path.join(__dirname, 'config.json');
-const envPath = path.join(__dirname, '..', '.env');
+const envPath = path.join(__dirname, '.env');
 
 console.log(`
 =========================================
